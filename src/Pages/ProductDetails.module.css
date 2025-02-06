@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pDetails{
+    display: flex;
+    max-width: 90%;
+    margin: 5rem auto;
+    /* border: 1px solid black; */
+    padding: 1em;
+}
+.pDImg{
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    margin:0 auto;
+    /* border: 1px solid black; */
+}
+.pDImg .row1 img{
+    max-width: 95%;
+   }
+.pDImg .row2{
+    display: flex;
+    max-width: 100%;
+}
+.pDImg .row2 div{
+    /* margin: auto; */
+    max-width:50%;
+}
+.pDImg .row2 div img{
+    /* margin: auto; */
+    max-width:90%;
+}
+
+/* Typograpy */
+.details h3{
+    font-size: 2rem;
+}
+.details button{
+    background: #2e2c2d;
+}
+
+.details{
+    margin: 1rem auto;
+    padding-left: 1rem;
+}
+.details .price{
+    margin: 1em auto;
+    display: flex;
+}
+.details .price :last-child{
+    text-decoration: line-through;
+}
